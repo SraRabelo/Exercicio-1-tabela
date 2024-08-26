@@ -1,0 +1,48 @@
+table::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 70%;
+    height: 2px;
+}
+
+table{
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color: rgb(221, 221, 221);
+    border-spacing: 1px;
+   }
+
+tbody{background-color: rgb(221, 221, 221);}
+
+th,td{
+    border: 1px;
+    padding: 8px;
+    text-align: center;
+}
+
+.period{
+    background-color: rgb(243, 243, 212);
+    border-top: solid rgba(243, 243, 212, 0.801);    
+}
+
+.android{
+    background-color: rgb(204, 241, 101);
+    border-top: solid rgba(196, 243, 65, 0.774);
+}
+
+.IOS{
+    background-color: rgb(165, 223, 247);
+    border-top: solid rgba(78, 182, 226, 0.664);
+}
+
+.windowsphone{
+    background-color: rgb(196, 137, 188);
+    border-top: solid rgb(228, 77, 208);
+}
+
+.others{
+    background-color: rgba(243, 198, 114, 0.973);
+    border-top: solid rgba(236, 173, 55, 0.973);
+}
